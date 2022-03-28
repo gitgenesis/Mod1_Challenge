@@ -239,7 +239,7 @@ my_dir = Path(".")
 print(my_dir)
 """ 
 
-csvpath = Path("/Users/genesis/Desktop/Fintech-Workspace/Mod1-Challenge/inexpensive_loans.csv")
+csvpath = Path("/inexpensive_loans.csv")
 with open(csvpath, 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
 
